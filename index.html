@@ -8,6 +8,8 @@
   </head>
   <body>
     <script type='text/javascript'>
+      var src=['https://kokomiserver.github.io/_','https://kokomiserver.github.io/-'];
+      var name=['纯原创','借鉴木白学长'];
       var div=document.getElementById('div');
       div.style.height=window.innerHeight*0.8;
       div.style.width=window.innerWidth*0.8;
@@ -29,8 +31,10 @@
         new_div.style.backgroundColor=BGcolor;
         new_div.style.height=div.style.height*0.2;
         new_div.style.width=div.style.width;
-        body.appendChild(new_div);
+        new_div.id=num;
+        div.appendChild(new_div);
       };
+      
     </script>
     <div id='div></div>
   </body>
