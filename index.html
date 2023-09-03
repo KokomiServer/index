@@ -3,18 +3,24 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width,initial-scale=1">
-        <link href="/css/index.css" rel="stylesheet">
+        <link href="index.css" rel="stylesheet">
         <title>主页</title>
     </head>
     <body id="BG">
         <script type="text/javascript">
-            /*setInterval(
-                function(){
-                window.location.reload("time");
-                },50)
-            */   
+            var time=document.getElementById('time');
+            var SI=setInterval({
+                var year = myDate.getFullYear(); //获取当前年
+				var mon = myDate.getMonth() + 1; //获取当前月
+				var date = myDate.getDate(); //获取当前日
+				var hours = myDate.getHours(); //获取当前小时
+				var minutes = myDate.getMinutes(); //获取当前分钟
+				var seconds = myDate.getSeconds(); //获取当前秒
+				var now = "当前时间:" + year + "-" + mon + "-" + date + " " + hours + ":" + minutes + ":" + seconds;
+                time.innerHTML=now;
+            },50)
         </script>
-        <div id="time" >当前时间:{{Time}}</div>
+        <div id="time" >时间</div>
         <br>
         <div id="performance"></div>
         <br>
