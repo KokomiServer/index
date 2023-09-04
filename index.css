@@ -1,0 +1,123 @@
+#time{
+    height:5%;
+    position:fixed;
+    left:0;
+    top:0;
+    width:100%;
+    font-size:4vh;
+    text-align:center;
+    background-image:linear-gradient(to right,rgba(216,135,178,0.35),rgba(87,120,221,0.35));
+    color:rgba(216,135,178,0.9);
+}
+#performance{
+    font-weight:bold;
+    height:70%;
+    width:45%;
+    font-size:3.5vh;
+    border-radius:7.5%;
+    text-align:center;
+    background-image:linear-gradient(to right,rgba(216,135,178,0.35),rgba(87,120,221,0.35));
+    position:absolute;
+    color:rgba(216,135,178,0.9);
+    top:7.5%;
+    left:3.5%;
+}
+#codes{
+    display:inline-block;
+    font-weight:bold;
+    height:27.5%;
+    width:45%;
+    font-size:3.5vh;
+    border-radius:7.5%;
+    text-align:center;
+    background-image:linear-gradient(to right,rgba(216,135,178,0.35),rgba(87,120,221,0.35));
+    position:absolute;
+    color:rgba(216,135,178,0.65);
+    top:7.5%;
+    right:3.5%;
+}
+#code1{
+    height:6vh;
+    width:20vh;
+}
+#code1_img{
+    position:absolute;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-position: center 0;
+    background-image:url('code1_img.png');
+    height:5vh;
+    width:5vh;
+    left:1vh;
+    border-width:0.35vh;
+    border-style:solid;
+    border-color: rgba(216,135,178,0.9);
+}
+#code1_text{
+    position:absolute;
+    left:7vh;
+    top:5vh;
+}
+#TA_div{
+    height:40%;
+    width:45%;
+    border-radius:7.5%;
+    background-image:linear-gradient(to right,rgba(216,135,178,0.35),rgba(87,120,221,0.35));
+    position:absolute;
+    color:rgba(110,140,240,0.65);
+    top:37.5%;
+    right:3.5%;
+}
+#TA_title{
+    font-weight:bold;
+    text-align:center;
+    font-size:3.5vh;
+}
+#TA{
+    display:inline-block;
+    position:absolute;
+    width:43vw;
+    left:1vw;
+    font-weight:bold;
+    text-align:left;
+    font-size:0.75vw;
+}
+#music{
+    height:15%;
+    width:27.5%;
+    font-size:3.5vh;
+    border-radius:7.5%;
+    text-align:center;
+    background-image:linear-gradient(to right,rgba(216,135,178,0.35),rgba(87,120,221,0.35));
+    position:absolute;
+    color:rgba(216,135,178,0.9);
+    bottom:5%;
+    left:3.5%;
+}
+.music_text{
+    text-decoration:none;
+    color:rgba(216,135,178,0.9);
+    font-size:2vh;
+}
+#BG{
+    font-family:'HYWH-75W';
+    position:fixed;
+    top: 0;
+    left: 0;
+    width:100%;
+    height:100%;
+    z-index:-10;
+    zoom: 1;
+    background-color: #FFFFFF;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-position: center 0;
+    background-image:url('c_BG_3.png')
+}
+@font-face {
+    font-family:'HYWH-75W';
+    src:url('HYWH-75W.ttf');
+}
