@@ -58,6 +58,8 @@
     position:absolute;
     left:7vh;
     top:5vh;
+    text-decoration:none;
+    color:rgba(216,135,178,0.65);
 }
 #TA_div{
     height:40%;
